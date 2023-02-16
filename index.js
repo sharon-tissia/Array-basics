@@ -28,12 +28,12 @@ var myStr = " My name is " + myName + " and i am a woman "
 
 console.log (`My name is ${myName} and i am a woman` )
 
-const firstName = 'Jonathan'
 
-const str = `Hello ${firstName}, Welcome to Livestock Wealth`
-console.log(str);
-
-
-
-
+var firstName = "sharon";
+var thirdletteroffirstName = firstName [3]
+console.log (firstName)
+var myArray = ["sharon", "steve", "david", "dod"]
+var removedfromMyArray = myArray.shift ();
+console.log(myArray);
+console.log (removedfromMyArray)
 
