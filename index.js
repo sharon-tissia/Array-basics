@@ -35,5 +35,5 @@ console.log (firstName)
 var myArray = ["sharon", "steve", "david", "dod"]
 var removedfromMyArray = myArray.shift ();
 console.log(myArray);
-console.log (removedfromMyArray)
+console.log (removedfromMyArray);
 
