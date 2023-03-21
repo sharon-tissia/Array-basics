@@ -2,10 +2,10 @@
   "name": "jshw",
   "version": "1.0.0",
   "description": "",
-  "main": "javasc.js",
+  "main": "Array.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon javasc.js"
+    "start": "nodemon Array.js"
   },
   "author": "",
   "license": "ISC",
