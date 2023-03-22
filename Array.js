@@ -11,5 +11,9 @@ console.log (timesFive (9));
 /* This function displays a shoping list
 */
 let shoppingList = ['cabbages','tealeaves', 'juice', 'bread'];
-shoppingList [4] = 'bananas'
-console.log (shoppingList);
+console.log (shoppingList.lenght);
+/* an array that displays selected colours
+*/
+let selectedColors = ['red', 'blue', 'yellow'];
+selectedColors [3] = 'violet'
+console.log (selectedColors);
