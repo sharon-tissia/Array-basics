@@ -42,4 +42,15 @@ console.log (ourColors);
 let rem = ourColors.shift();
 console.log (rem);
 
+/* manipulating elements in an array:
+0 = judith
+1 = Den
+2 = Dam
+3 = Dev
+*/
+var characters = ['judith', 'den', 'Dam', 'Dev'];
+console.log (characters);
+characters.splice (1, 2, 'sharon');
+console.log (characters);
+
 
