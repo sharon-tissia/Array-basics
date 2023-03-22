@@ -52,5 +52,13 @@ var characters = ['judith', 'den', 'Dam', 'Dev'];
 console.log (characters);
 characters.splice (1, 2, 'sharon');
 console.log (characters);
+characters.splice (2, 1, 'jan', 'patrick');
+console.log(characters);
+characters.splice (3, 1, "trevor");
+console.log (characters);
+characters.splice (0, 3 , 'omwami', 70, 'agness');
+console.log (characters);
+characters.reverse ();
+
 
 
