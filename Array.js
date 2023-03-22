@@ -59,6 +59,18 @@ console.log (characters);
 characters.splice (0, 3 , 'omwami', 70, 'agness');
 console.log (characters);
 characters.reverse ();
-
-
-
+/* manipulating arrays using reverse and sort
+0 = judith
+1 = Den
+2 = Dam
+3 = Dev
+*/
+var myCharacters = ['judith', 'Den', 'Dam', 'job'];
+myCharacters.reverse();
+console.log (myCharacters);
+myCharacters.sort();
+console.log (myCharacters);
+myCharacters.reverse ();
+console.log (myCharacters);
+var position = myCharacters.indexOf ('job');
+console.log (position);
