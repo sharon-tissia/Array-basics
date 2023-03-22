@@ -28,3 +28,15 @@ let myNames = ['james','john', 'keri', 'keit'];
 myNames.pop ();
 myNames.pop ();
 console.log (myNames);
+/* adding chracters to the left end of the array using unshift function
+*/
+let ourNames = ['james','john', 'keri'];
+ourNames.unshift(100);
+ourNames.unshift(0);
+console.log (ourNames);
+/* removing the first item in the array using shift function
+*/
+let ourColors = ['red', 'blue', 'yellow'];
+ourColors.shift();
+console.log (ourColors);
+
