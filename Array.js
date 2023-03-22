@@ -39,4 +39,7 @@ console.log (ourNames);
 let ourColors = ['red', 'blue', 'yellow'];
 ourColors.shift();
 console.log (ourColors);
+let rem = ourColors.shift();
+console.log (rem);
+
 
