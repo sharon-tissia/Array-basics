@@ -8,3 +8,8 @@ function timesFive (num) {
     return num * 5;
 }
 console.log (timesFive (9));
+/* This function displays a shoping list
+*/
+let shoppingList = ['cabbages','tealeaves', 'juice', 'bread'];
+shoppingList [4] = 'bananas'
+console.log (shoppingList);
