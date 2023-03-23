@@ -74,3 +74,11 @@ myCharacters.reverse ();
 console.log (myCharacters);
 var position = myCharacters.indexOf ('job');
 console.log (position);
+/* javaScript for loop; initialize, test and increment
+*/
+var myCounties = ['kericho', 'bungoma', 'baringo', 'nairobi', 'mombasa', 'nakuru', 'nyeri'];
+console.log (myCounties.length);
+for (var i=0; i<myCounties; i++){
+    console.log ( myCounties[i]);
+}
+console.log (myCounties);
