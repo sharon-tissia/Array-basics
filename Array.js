@@ -82,3 +82,9 @@ for (var i=0; i<myCounties; i++){
     console.log ( myCounties[i]);
 }
 console.log (myCounties);
+for (let i=myCounties-1; i>=0; i=i-1){
+    console.log( myCounties[i] );
+}
+for (var i=0; i<myCounties; i=i+3){
+console.log ( myCounties[i] );
+};
